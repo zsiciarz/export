@@ -14,8 +14,7 @@ setup(
     url='http://github.com/zsiciarz/export',
     download_url='http://pypi.python.org/pypi/export',
     license='MIT',
-    packages=find_packages(),
-    include_package_data=True,
+    py_modules=['export'],
     platforms='any',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
